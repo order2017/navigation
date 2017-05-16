@@ -16,3 +16,6 @@
 });*/
 
 Route::get('/','Home\IndexController@index');
+
+Route::get('store-list','Home\IndexController@StoreList');
+Route::post('store-list','Home\IndexController@Store');
